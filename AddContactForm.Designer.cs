@@ -31,6 +31,8 @@ namespace contact_list_winforms {
             this.label2 = new System.Windows.Forms.Label();
             this.txtEmail = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.SuspendLayout();
             // 
             // txtFullName
@@ -67,7 +69,7 @@ namespace contact_list_winforms {
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(210, 261);
+            this.button1.Location = new System.Drawing.Point(186, 372);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(180, 44);
             this.button1.TabIndex = 3;
@@ -100,13 +102,32 @@ namespace contact_list_winforms {
             this.label3.TabIndex = 4;
             this.label3.Text = "Thêm Liên Hệ";
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(43, 249);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(136, 20);
+            this.label4.TabIndex = 2;
+            this.label4.Text = "Thông tin bổ sung";
+            // 
+            // richTextBox1
+            // 
+            this.richTextBox1.Location = new System.Drawing.Point(186, 249);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(267, 96);
+            this.richTextBox1.TabIndex = 5;
+            this.richTextBox1.Text = "";
+            // 
             // AddContactForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(569, 360);
+            this.ClientSize = new System.Drawing.Size(727, 428);
+            this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.button1);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.lul);
             this.Controls.Add(this.txtEmail);
@@ -131,5 +152,7 @@ namespace contact_list_winforms {
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtEmail;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.RichTextBox richTextBox1;
     }
 }
