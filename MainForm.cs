@@ -15,8 +15,6 @@ namespace contact_list_winforms {
         }
 
         private void button1_Click(object sender, EventArgs e) {
-            AddContactForm add = new AddContactForm();
-            add.ShowDialog();
         }
     }
 }
