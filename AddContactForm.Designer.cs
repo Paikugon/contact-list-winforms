@@ -28,13 +28,16 @@ namespace contact_list_winforms {
             this.lul = new System.Windows.Forms.Label();
             this.txtPhoneNum = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.txtEmail = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // txtFullName
             // 
             this.txtFullName.Location = new System.Drawing.Point(172, 114);
             this.txtFullName.Name = "txtFullName";
-            this.txtFullName.Size = new System.Drawing.Size(218, 26);
+            this.txtFullName.Size = new System.Drawing.Size(281, 26);
             this.txtFullName.TabIndex = 0;
             // 
             // label1
@@ -59,29 +62,59 @@ namespace contact_list_winforms {
             // 
             this.txtPhoneNum.Location = new System.Drawing.Point(172, 157);
             this.txtPhoneNum.Name = "txtPhoneNum";
-            this.txtPhoneNum.Size = new System.Drawing.Size(218, 26);
+            this.txtPhoneNum.Size = new System.Drawing.Size(281, 26);
             this.txtPhoneNum.TabIndex = 0;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(210, 241);
+            this.button1.Location = new System.Drawing.Point(210, 261);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(180, 44);
             this.button1.TabIndex = 3;
             this.button1.Text = "Lưu";
             this.button1.UseVisualStyleBackColor = true;
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(43, 206);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(46, 20);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "email";
+            // 
+            // txtEmail
+            // 
+            this.txtEmail.Location = new System.Drawing.Point(172, 204);
+            this.txtEmail.Name = "txtEmail";
+            this.txtEmail.Size = new System.Drawing.Size(281, 26);
+            this.txtEmail.TabIndex = 0;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 22F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(130, 33);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(296, 52);
+            this.label3.TabIndex = 4;
+            this.label3.Text = "Thêm Liên Hệ";
+            // 
             // AddContactForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(569, 360);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.button1);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.lul);
+            this.Controls.Add(this.txtEmail);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtPhoneNum);
             this.Controls.Add(this.txtFullName);
             this.Name = "AddContactForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AddContactForm";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -95,5 +128,8 @@ namespace contact_list_winforms {
         private System.Windows.Forms.Label lul;
         private System.Windows.Forms.TextBox txtPhoneNum;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox txtEmail;
+        private System.Windows.Forms.Label label3;
     }
 }
