@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -9,14 +9,9 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace contact_list_winforms {
-    public partial class MainForm : Form {
-        public MainForm() {
+    public partial class AddContactForm : Form {
+        public AddContactForm() {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e) {
-            AddContactForm add = new AddContactForm();
-            add.ShowDialog();
         }
     }
 }
