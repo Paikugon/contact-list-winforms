@@ -1,1 +1,2 @@
-# contact-list-winforms
+- Ngô Mạnh Hùng 2280601102
+- Phạm Khắc Duy Long 2280610603
